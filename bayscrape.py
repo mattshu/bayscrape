@@ -13,7 +13,7 @@ _WELCOME_MESSAGE = "\n".join((
 ))
 
 
-def bayscrape() -> None:
+def main() -> None:
     """Begin bayscrape application."""
     while True:
         output(_WELCOME_MESSAGE)
@@ -29,4 +29,4 @@ def bayscrape() -> None:
 
 
 if __name__ == "__main__":
-    bayscrape()
+    main()
