@@ -1,12 +1,19 @@
-from setuptools import setup, find_packages
+import setuptools
 
-setup(
+setuptools.setup(
     name='bayscrape',
     version='0.2',
-    packages=find_packages(),
-    url='github.com/mattshu/bayscrape',
+    packages=[setuptools.find_packages()],
+    install_requires=[
+        'requests>=2.24.0',
+        'beautifulsoup4>=4.9.3',
+        'colored>=1.4.2',
+        'setuptools>=50.3.2',
+        'beautifultable>=1.0.0',
+    ],
+    url='https://github.com/mattshu/bayscrape',
     license='MIT',
     author='Matt Kelley',
     author_email='mattshu32@gmail.com',
-    description='Safely browse legal torrents from the comfort of your command-line.'
+    description='Safely browse the Pirate Bay from the comfort of your command-line.'
 )
