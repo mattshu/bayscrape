@@ -44,4 +44,4 @@ I could use some guidance if you'd like to contribute. I'm new at this. I try to
 * [BeautifulTable](https://github.com/pri22296/beautifultable)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[GNU GPL3.0](https://choosealicense.com/licenses/gpl-3.0/)
