@@ -132,8 +132,10 @@ def _extract_upload_date(soup) -> str:
     upload_date = soup.get_text().split(",")[0].split()[1:]
     if upload_date[0] == "Today":
         upload_date = "Today"
-    elif "Y-day" in upload_date[0]:
+    elif "Y-day" in upload_date:
         upload_date = str(date.today() - timedelta(1))
+    elif "ago" in upload_date:
+        upload_date = f"{upload_date[0]}{upload_date[1]}"
     else:
         month, day = upload_date[0].split("-")
         upload_date = "{0}-{1}-{2}".format(upload_date[1], month, day)
