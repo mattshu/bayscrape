@@ -40,8 +40,8 @@ I could use some guidance if you'd like to contribute. I'm new at this. I try to
 
 ## Thank you
 
-* [BeautifulSoup] (https://pypi.org/project/beautifulsoup4/)
-* [BeautifulTable] (https://github.com/pri22296/beautifultable)
+* [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+* [BeautifulTable](https://github.com/pri22296/beautifultable)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
