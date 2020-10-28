@@ -26,11 +26,11 @@ This will begin the bayscrape user interface.
 
 The interface is simple and popup free.
 
-![bs2](https://i.imgur.com/kyAaQwb.png)
+![bs2](https://i.imgur.com/XqAiVsT.png)
 
 Read into torrent descriptions and also user comments.
 
-![bs3](https://i.imgur.com/9cIuNzo.png)
+![bs3](https://i.imgur.com/Ex70SVu.png)
 
 Choosing **download** will open the default torrent application via the magnet link.
 
