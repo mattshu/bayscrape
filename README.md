@@ -38,5 +38,10 @@ Choosing **download** will open the default torrent application via the magnet l
 
 I could use some guidance if you'd like to contribute. I'm new at this. I try to follow flake8 guidelines per the [setup.cfg](https://github.com/mattshu/bayscrape/blob/main/setup.cfg) settings.
 
+## Thank you
+
+* [BeautifulSoup] (https://pypi.org/project/beautifulsoup4/)
+* [BeautifulTable] (https://github.com/pri22296/beautifultable)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
