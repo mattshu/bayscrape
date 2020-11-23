@@ -32,6 +32,7 @@ def process_details_soup(torrent_url) -> (dict, str, list):
     soup = get_soup(torrent_url)
     torrent_details_header = _process_details_header(soup)
     torrent_description = "\n".join(soup.pre.get_text().splitlines())
+    torrent_description = torrent_description.replace("\t", " " * 4)  # Replace literal that causes errors in the table
     torrent_details_comments = _process_details_comments(soup)
     return torrent_details_header, torrent_description, torrent_details_comments
 
